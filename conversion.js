@@ -10,7 +10,7 @@ do {
 }  while((scale = "F") || (scale = "C") || (scale = "K"))
 
   temperature = Number(readlineSync.question("Enter a temperature: "));
-temperature
+
 
 const conversionf1 = (temeprature * (9/5)) + 32
 const conversionf2 = (temperature - 273.15) * (9/5) + 32
